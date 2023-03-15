@@ -17,3 +17,5 @@ class Course:
         self.__course_title = course_title
         self.__course_mat = course_mat
         self.__teacher = teacher
+    def cart():
+        pass
