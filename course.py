@@ -2,7 +2,7 @@ class Course:
     def __init__(self, course_date_issued, course_catg, course_recom_hour,
                  course_release, course_refcode, course_contact, teacher_name, teacher_dept,
                  course_teachers, course_target, course_objective, course_hour, course_desc,
-                 course_organization, course_title, course_mat, teacher):
+                 course_organization, course_title):
         self.__course_date_issued = course_date_issued
         self.__course_catg = course_catg
         self.__course_recom_hour = course_recom_hour
@@ -15,8 +15,6 @@ class Course:
         self.__course_desc = course_desc
         self.__course_organization = course_organization
         self.__course_title = course_title
-        self.__course_mat = course_mat
-        self.__teacher = teacher
     
     def cart():
         pass
