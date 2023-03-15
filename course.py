@@ -20,5 +20,5 @@ class Course:
     
     def cart():
         pass
-    def eiei():
+    def kookkai():
         pass
